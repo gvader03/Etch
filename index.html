@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKETCH ETCH</title>
+    <link rel="icon" type="image/x-icon" href="images/etch.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = wrapper>
+        <h1 class = 'title'>SKETCHY ETCHINGS</h1>
+        <div class = 'controls'>
+            <div class = "color">
+                <div class = 'select'>
+                    <input type="color" id="color-select">
+                </div>    
+                <div class = 'penlabel'>
+                    <h4>Pen Color</h4>
+                </div>
+            </div>
+            <div class = "background-color">
+                <div class = bg-select>    
+                    <input type="color" id="bg-select" value = '#C53030'>
+                </div>
+                <div class = 'bg-name'>
+                    <h4>Background</h4>
+                </div>
+            </div>
+            <div class = 'rainbow'>
+                <div class = 'bow-button'>
+                    <button id="bow"></button>
+                </div>
+                <div class = 'bowlabel'>
+                    <h4>Rainbow</h4>
+                </div>
+            </div>
+            <div class = 'psych'>
+                <div class = 'psycho'>
+                    <button id="crazy"></button>
+                </div>
+                <div class = 'psychlabel'>
+                    <h4>Psychadelic</h4>
+                </div>
+            </div>
+            <div class = "size">    
+                <div class = 'grid-size'>
+                    <input type="text" id="grid" name="Grid Size"
+                    maxlength="2" placeholder="Type Here">
+                </div>
+                <div class = 'gridlabel'>
+                    <h4>Grid Size</h4>
+                </div>
+            </div>
+            <div class="erase">   
+                <div class = 'nomore'>
+                    <button class = "eraser"></button>
+                </div>
+                <div class="eraselabel">
+                    <h4>Eraser</h4>
+                </div>
+            </div>
+            <div class="start-over">   
+                <div class = 'res'>
+                    <button class = "reset"></button>
+                </div>
+                <div class = 'resetlabel'>
+                    <h4>Reset</h4>
+                </div>
+            </div>
+        </div>
+        <div class="board-wrap">
+            <div class="board-grid">
+            </div>
+        </div>
+        <div class = "footer">
+            <img src="images/duck.png" alt="logo" href="#" class="footer-logo">
+            <p>Created by Webfoot Studio</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
